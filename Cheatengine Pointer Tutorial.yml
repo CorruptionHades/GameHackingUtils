@@ -1,0 +1,25 @@
+Static Cheat Engine address
+  1: Writable & Executable to dont care
+
+Cheatengine Pointer Tutorial
+Method 1:
+  1: Find memory address of target value
+  2: Right click -> Generate Pointermap -> save to a location
+  3: Right Click -> Pointer scan for this address, select saved pointermap, keep window open
+  4: restart game
+  5: refind target value
+  6: Copy new address
+  7: In open window, click pointer scanner tab -> rescan memory -> paste new address
+  8: save it
+  9: repeat until only a few values are seen in the window
+
+Method 2:
+  1: Find memory address of target value
+  2: Right click -> Generate Pointermap -> save to a location
+  3: Restart Game
+  4: Find address again -> Generate Pointermap -> save to a location
+  5: Right Click first address -> Pointer scan for this address
+  6: Click use saved pointermap -> select first pointer Pointermap
+  7: select "Compare Results with other Pointermap" -> select second Pointermap
+  8: Select second address
+  9: (optional) change scan settings
